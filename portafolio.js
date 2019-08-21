@@ -1,33 +1,33 @@
 var trabajos = [{
-    figure: "media/trabajo-01-desfile.jpg",
-    alt: "Descripción de la imagen",
-    title: "Título de primer trabajo",
-    about: "Texto simulado de descripción de primer trabajo"
+    figure: "media/Mobiliario-Papiones.jpg",
+    alt: "Se observa una estrutura compuesta de troncos y ramas gruesas, conformando 2 pisos, cada uno de 1 metro de altura aproximadamente.Hay un apersona sentada bajo la sombra del primer piso, otra persona (Sebastián Pavlovic) esta sentada en el primer piso suspendido y una tercera persona (Vicente Donoso) en el piso de más arriba.",
+    title: "Mobiliario para papiones",
+    about: "Entrega para taller interacción, 2017"
 }, {
-    figure: "media/trabajo-02-app.jpg",
-    alt: "Descripción de la imagen",
-    title: "Título de segundo trabajo",
-    about: "Texto simulado de descripción de segundo trabajo"
+    figure: "media/banca-optimizada.jpg",
+    alt: "Una banca compuesta de madera terciada de 3 milimetros de espesor. Tiene una forma curviliena, con el tramo mas largo es recto, y a lo ancho tiene una curvatura semi-circular. La forma a lo largo presenta una forma de arco, con la parte superior recta.",
+    title: "Banca taco",
+    about: "Entrega para Estructuras y Materiales, 2019"
 }, {
-    figure: "media/trabajo-03-homy.jpg",
+    figure: "media/Silent-Space-Arcade.jpg",
     alt: "Descripción de la imagen",
-    title: "Título de tercer trabajo",
-    about: "Texto simulado de descripción de tercer trabajo"
+    title: "Silent Space",
+    about: "Examen Final de Programación Creativa, 2019"
 }, {
-    figure: "media/trabajo-04-editorial.jpg",
-    alt: "Descripción de la imagen",
-    title: "Título de cuarto trabajo",
-    about: "Texto simulado de descripción de cuarto trabajo"
+    figure: "media/juego-herbert-ok.jpeg",
+    alt: "Un juego de mesa con sus distintos componentes desplegados en un fondo blanco",
+    title: "El laboratorio de Herbert",
+    about: "Entrega para Taller Producto, 2018"
 }, {
-    figure: "media/trabajo-05-artesania.jpg",
+    figure: "media/Peine-para-Escobillones.jpg",
     alt: "Descripción de la imagen",
-    title: "Título de quinto trabajo",
-    about: "Texto simulado de descripción de quinto trabajo"
+    title: "Peine para escobillones Virutex",
+    about: "Entrega para Taller de Innovación y Desarrollo de Estrategias, 2019"
 }, {
-    figure: "media/trabajo-06-textil.jpg",
+    figure: "media/logo-cierra-el-ciclo-ok.png",
     alt: "Descripción de la imagen",
-    title: "Título de sexto trabajo",
-    about: "Texto simulado de descripción de sexto trabajo"
+    title: "Cierra el Ciclo",
+    about: "Entrega Taller de Innovación y Desarrollo de Estrategias, 2019"
 }, {
     figure: "media/trabajo-07-materiales.jpg",
     alt: "Descripción de la imagen",
