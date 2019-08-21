@@ -10,7 +10,7 @@ var trabajos = [{
     about: "Entrega para Estructuras y Materiales, 2019"
 }, {
     figure: "media/Silent-Space-Arcade.jpg",
-    alt: "Descripción de la imagen",
+    alt: "Se muestra un arcade de videojuegos del tamaño de medio cuerpo, con pegatinas de naves espaciales en el frente y costados junto con el nombre del juego, Silent Space. Al frente del arcade se posicionan a la derecha la palanca de mando y a su izquierda el botón de acción. Arriba de estos últimos la pantalla muestra la imagen de inicio con el logo del juego Silent Space",
     title: "Silent Space",
     about: "Examen Final de Programación Creativa, 2019"
 }, {
@@ -20,7 +20,7 @@ var trabajos = [{
     about: "Entrega para Taller Producto, 2018"
 }, {
     figure: "media/Peine-para-Escobillones.jpg",
-    alt: "Descripción de la imagen",
+    alt: "Se muestra un escobillón junto a una pala de escoba, esta última tiene un accesorio tipo peine anclado al palo de la pala cercano a la base de la misma paralela al piso",
     title: "Peine para escobillones Virutex",
     about: "Entrega para Taller de Innovación y Desarrollo de Estrategias, 2019"
 }, {
@@ -29,10 +29,10 @@ var trabajos = [{
     title: "Cierra el Ciclo",
     about: "Entrega Taller de Innovación y Desarrollo de Estrategias, 2019"
 }, {
-    figure: "media/trabajo-07-materiales.jpg",
-    alt: "Descripción de la imagen",
-    title: "Título de séptimo trabajo",
-    about: "Texto simulado de descripción de séptimo trabajo"
+    figure: "media/STRECH.jpg",
+    alt: "Se muestra una persona con un accesorio textil en sus brazos. Este consiste de unas pulseras a lo largo de ambos brazos que están unidas a una tela elástica de 30 centímetros por 40 centimetros",
+    title: "STRECH",
+    about: "Examen para Taller Producto, 2018"
 }];
 // LUEGO CREAMOS PARTES DEL SITIO CON CADA DATO CONTENIDO EN LA VARIABLE
 $.each(trabajos, function(i, val) {
