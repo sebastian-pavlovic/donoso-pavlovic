@@ -74,19 +74,37 @@ header{
     z-index:9;
 }
 
-header nav {
-    background: #528FD5;
+#navbar {
+    background: #333;
     overflow:hidden;
 
 }
 
-header nav ul {
-    list-style: none;
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
 }
 
-header nav ul li {
-    float: left;
+.content {
+    padding: 16px;
+
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+}
+
 @media screen and (orientation: portrait){
     header{ top:12%; }
 }
@@ -186,6 +204,11 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     background-repeat: no-repeat;
 }
 
+ 
+
+
+
+
 .integrante:nth-of-type(1):hover{
     background-color:#8b8aac;
     background-image:url('media/Foto Vicente.jpeg');
@@ -201,6 +224,10 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     background-size:auto 90%;
     background-repeat: no-repeat;
 }
+
+
+
+
 
 /*
 AHORA VAMOS POR PORTAFOLIO
