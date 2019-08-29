@@ -3,11 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 /* 
-
 Así se escriben los comentario en CSS.
 Siempre se abren con slash asterisco, y
 se cierran con asterisco slash.
-
 */
 
 *{
@@ -206,6 +204,8 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     background-repeat: no-repeat;
 }
 
+ 
+
 
 
 
@@ -226,10 +226,11 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 
+
+
+
 /*
-
 AHORA VAMOS POR PORTAFOLIO
-
 */
 
 #portafolio{
