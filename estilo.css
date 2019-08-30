@@ -17,8 +17,7 @@ body{
     font-weight:400;
     color:#373737;
     background: url('media/pattern-web.gif');
-    background-size: 15%;
-    /*background:linear-gradient(to bottom, #CCE3ED, #427177); /*el primer par es R, segundo es G y tercero es B*/
+    background-size: 15%; 
 }
 
 h1, h2{
@@ -58,13 +57,13 @@ h5, h6{
 }
 
 a{
-    color:rgb(155,0,0);
+    color:#000;
     text-decoration:none;
 }
 
 a:hover{
-    color:rgb(255,0,0);
-    text-decoration:underline;
+    color:#000;
+    font-weight: bold;
 }
 
 header{
@@ -142,12 +141,16 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     color:rgba(0,0,0,1);
 }
 
-#equipo a{
-    color:rgba(0,0,0,.7);
+.integrante:nth-of-type(1) a:hover{
+    color:rgba(255,255,255,9);
 }
 
-#equipo a:hover{
-    color:rgba(255,255,255,.9);
+.integrante:nth-of-type(2) a{
+    color:rgba(0,0,0,7);
+}
+
+.integrante:nth-of-type(2) a:hover{
+    color:rgba(0,0,0,9);
 }
 
 .integrante {
@@ -261,6 +264,10 @@ AHORA VAMOS POR PORTAFOLIO
     background:#427177;
     box-shadow:0 0 5px rgba(0,0,0,.5);
 
+}
+
+.item:nth-of-type(1) a{
+    color: #fff;
 }
 
 @media screen and (max-width: 768px){
