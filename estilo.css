@@ -16,12 +16,9 @@ body{
     font-family:'Roboto+Condensed', sans-serif;
     font-weight:400;
     color:#373737;
-    /*background:linear-gradient(to bottom, #CCE3ED, #427177);*/
-    background-image: url("media/pattern-web.gif"); 
-    background-size: 15%;
-    /*el primer par es R, segundo es G y tercero es B*/
+    background: url('fondo-prueba.gif') center repeat-y;
+    /*background:linear-gradient(to bottom, #CCE3ED, #427177); /*el primer par es R, segundo es G y tercero es B*/
 }
-
 
 h1, h2{
     font-family:'Righteous', monospace;
@@ -207,7 +204,6 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     background-repeat: no-repeat;
 }
 
-
 .integrante:nth-of-type(2){
     background:#fce2a5;
     background-image:url('media/Foto Pavlovic pixel 1.jpeg');
@@ -215,11 +211,6 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     background-size:auto 90%;
     background-repeat: no-repeat;
 }
-
- 
-
-
-
 
 .integrante:nth-of-type(1):hover{
     background-color:#8b8aac;
@@ -237,10 +228,6 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     background-repeat: no-repeat;
 }
 
-
-
-
-
 /*
 AHORA VAMOS POR PORTAFOLIO
 */
@@ -250,28 +237,74 @@ AHORA VAMOS POR PORTAFOLIO
     padding:.25% 0;
 }
 
-.item {
+.item:nth-of-type(odd) {
     width:23%;
     margin:1%;
-    color:#333;
-    background:#eee;
+    color:#000;
+    background:#8b8aac;
     box-shadow:0 0 5px rgba(0,0,0,.5);
 }
 
+.item:nth-of-type(even) {
+    width:23%;
+    margin:1%;
+    color:#000;
+    background:#fce2a5;
+    box-shadow:0 0 5px rgba(0,0,0,.5);
+}
+
+.item:nth-of-type(1) {
+    width:23%;
+    margin:1%;
+    color:#fff;
+    background:#427177;
+    box-shadow:0 0 5px rgba(0,0,0,.5);
+
+}
+
 @media screen and (max-width: 768px){
-    .item{
+    .item:nth-of-type(odd){
         width:48%;
         margin:1%;
-        background:#2C3D4B;
-        color:#eee;
+        background:#8b8aac;
+        color:#000;
     }
+
+    .item:nth-of-type(even){
+        width:48%;
+        margin:1%;
+        background:#fce2a5;
+        color:#000;
+    }
+
+    .item:nth-of-type(1){
+        width:48%;
+        margin:1%;
+        background:#427177;
+        color:#fff;
+    }
+
 }
  @media screen and (max-width: 576px){
-     .item{
-         width:96%;
-         margin:2%;
-         background:#172A3A;
-         color:#FFF;
+     .item:nth-of-type(odd){
+        width:96%;
+        margin:2%;
+        background:#8b8aac;
+        color:#000;
+    }
+
+    .item:nth-of-type(even){
+        width:96%;
+        margin:2%;
+        background:#fce2a5;
+        color:#000;
+    }
+
+    .item:nth-of-type(1){
+        width:96%;
+        margin:2%;
+        background:#427177;
+        color:#fff;
     }
 }
  .item:hover{
