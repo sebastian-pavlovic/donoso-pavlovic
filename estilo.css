@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 /* 
@@ -15,10 +16,12 @@ body{
     font-family:'Roboto+Condensed', sans-serif;
     font-weight:400;
     color:#373737;
+    /*background:linear-gradient(to bottom, #CCE3ED, #427177);*/
     background-image: url("media/pattern-web.gif"); 
     background-size: 15%;
-    /*background:linear-gradient(to bottom, #CCE3ED, #427177); /*el primer par es R, segundo es G y tercero es B*/
+    /*el primer par es R, segundo es G y tercero es B*/
 }
+
 
 h1, h2{
     font-family:'Righteous', monospace;
@@ -204,6 +207,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     background-repeat: no-repeat;
 }
 
+
 .integrante:nth-of-type(2){
     background:#fce2a5;
     background-image:url('media/Foto Pavlovic pixel 1.jpeg');
@@ -211,6 +215,11 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     background-size:auto 90%;
     background-repeat: no-repeat;
 }
+
+ 
+
+
+
 
 .integrante:nth-of-type(1):hover{
     background-color:#8b8aac;
@@ -228,6 +237,10 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     background-repeat: no-repeat;
 }
 
+
+
+
+
 /*
 AHORA VAMOS POR PORTAFOLIO
 */
@@ -237,30 +250,12 @@ AHORA VAMOS POR PORTAFOLIO
     padding:.25% 0;
 }
 
-.item:nth-of-type(odd) {
+.item {
     width:23%;
     margin:1%;
-    color:#000;
-    background:#8b8aac;
+    color:#333;
+    background:#eee;
     box-shadow:0 0 5px rgba(0,0,0,.5);
-}
-
-.item:nth-of-type(even) {
-    width:23%;
-    margin:1%;
-    color:#000;
-    background:#fce2a5;
-    box-shadow:0 0 5px rgba(0,0,0,.5);
-}
-
-.item:nth-of-type(1) {
-    width:23%;
-    margin:1%;
-    color:#fff;
-    background:#427177;
-    box-shadow:0 0 5px rgba(0,0,0,.5);
-
-
 }
 
 @media screen and (max-width: 768px){
