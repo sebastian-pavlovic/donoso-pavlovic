@@ -15,7 +15,8 @@ body{
     font-family:'Roboto+Condensed', sans-serif;
     font-weight:400;
     color:#373737;
-    background: url('fondo-prueba.gif') center repeat-y;
+    background-image: url("media/pattern-web.gif"); 
+    background-size: 15%;
     /*background:linear-gradient(to bottom, #CCE3ED, #427177); /*el primer par es R, segundo es G y tercero es B*/
 }
 
