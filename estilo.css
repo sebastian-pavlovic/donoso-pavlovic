@@ -16,7 +16,7 @@ body{
     font-family:'Roboto+Condensed', sans-serif;
     font-weight:400;
     color:#373737;
-    background: url('media/pattern-webb.gif');
+    background: url('media/pattern-web.gif');
     background-size: 15%;
     /*background:linear-gradient(to bottom, #CCE3ED, #427177); /*el primer par es R, segundo es G y tercero es B*/
 }
@@ -199,7 +199,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 
 .integrante:nth-of-type(1){
     background-color:#8b8aac;
-    background-image:url('media/Foto Vicente pixel 1.jpeg');
+    background-image:url('media/Foto Vicente pixel 1.jpg');
     background-position: bottom right;
     background-size:auto 90%;
     background-repeat: no-repeat;
