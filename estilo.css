@@ -17,8 +17,7 @@ body{
     font-weight:400;
     color:#373737;
     background: url('media/pattern-web.gif');
-    background-size: 15%;
-    /*background:linear-gradient(to bottom, #CCE3ED, #427177); /*el primer par es R, segundo es G y tercero es B*/
+    background-size: 15%; 
 }
 
 h1, h2{
@@ -50,7 +49,13 @@ h2{
 }
 
 h3{
-    display:none;
+    font-family:'Righteous', monospace;
+    color:#000;
+    color:rgba(0,0,0,1);
+    text-align:center;
+    letter-spacing:0.1em;
+    font-weight:700;
+    margin-bottom: 2rem;
 }
 
 h5, h6{
@@ -58,13 +63,13 @@ h5, h6{
 }
 
 a{
-    color:rgb(155,0,0);
+    color:#000;
     text-decoration:none;
 }
 
 a:hover{
-    color:rgb(255,0,0);
-    text-decoration:underline;
+    color:#000;
+    font-weight: bold;
 }
 
 header{
@@ -122,6 +127,7 @@ video{
     width:98%;
     padding:1% 1% 1% 1%;
     height:auto;
+    margin-bottom: 1rem;
     
 }
 
@@ -140,14 +146,19 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     flex-wrap: wrap;
     color:#fff /* lo mismo que #FFFFFF, simplificando pares iguales*/;
     color:rgba(0,0,0,1);
+    margin-bottom: 2rem;
 }
 
-#equipo a{
-    color:rgba(0,0,0,.7);
+.integrante:nth-of-type(1) a:hover{
+    color:rgba(255,255,255,9);
 }
 
-#equipo a:hover{
-    color:rgba(255,255,255,.9);
+.integrante:nth-of-type(2) a{
+    color:rgba(0,0,0,7);
+}
+
+.integrante:nth-of-type(2) a:hover{
+    color:rgba(0,0,0,9);
 }
 
 .integrante {
@@ -198,10 +209,10 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(1){
-    background-color:#8b8aac;
-    background-image:url('media/Foto Vicente pixel 1.jpg');
+    background-color:#90caf9;
+    background-image:url('media/Foto Vicente pixel 1.jpeg');
     background-position: bottom right;
-    background-size:auto 90%;
+    background-size:auto 100%;
     background-repeat: no-repeat;
 }
 
@@ -209,15 +220,15 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     background:#fce2a5;
     background-image:url('media/Foto Pavlovic pixel 1.jpeg');
     background-position: bottom right;
-    background-size:auto 90%;
+    background-size:auto 100%;
     background-repeat: no-repeat;
 }
 
 .integrante:nth-of-type(1):hover{
-    background-color:#8b8aac;
+    background-color:#90caf9;
     background-image:url('media/Foto Vicente.jpeg');
     background-position: bottom right;
-    background-size:auto 90%;
+    background-size:auto 100%;
     background-repeat: no-repeat;
 }
 
@@ -225,7 +236,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
     background:#fce2a5;
     background-image:url('media/Foto Pavlovic.jpeg');
     background-position: bottom right;
-    background-size:auto 90%;
+    background-size:auto 100%;
     background-repeat: no-repeat;
 }
 
@@ -242,7 +253,7 @@ AHORA VAMOS POR PORTAFOLIO
     width:23%;
     margin:1%;
     color:#000;
-    background:#8b8aac;
+    background:#90caf9;
     box-shadow:0 0 5px rgba(0,0,0,.5);
 }
 
@@ -254,20 +265,23 @@ AHORA VAMOS POR PORTAFOLIO
     box-shadow:0 0 5px rgba(0,0,0,.5);
 }
 
-.item:nth-of-type(1) {
+.item:nth-of-type(1) { 
     width:23%;
     margin:1%;
-    color:#fff;
-    background:#427177;
+    color:#000;
+    background:#a5d6a7; /*azules: 7EBDC2, 0FA3B1, 119DA4, 07A0C3, //verdes: ACC18A, 77CBB9, A7D3A6, B5D6B2, 419D78 */
     box-shadow:0 0 5px rgba(0,0,0,.5);
+}
 
+.item:nth-of-type(1) a{
+    color: #000;
 }
 
 @media screen and (max-width: 768px){
     .item:nth-of-type(odd){
         width:48%;
         margin:1%;
-        background:#8b8aac;
+        background:#90caf9;
         color:#000;
     }
 
@@ -290,7 +304,7 @@ AHORA VAMOS POR PORTAFOLIO
      .item:nth-of-type(odd){
         width:96%;
         margin:2%;
-        background:#8b8aac;
+        background:#90caf9;
         color:#000;
     }
 
