@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 /* 
@@ -209,8 +210,8 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(1){
-    background-color:#90caf9;
-    background-image:url('media/Foto Vicente pixel 1.jpeg');
+    background-color:#74c0ea;
+    background-image:url('media/Foto Vicente pixel corregida.jpeg');
     background-position: bottom right;
     background-size:auto 100%;
     background-repeat: no-repeat;
@@ -225,7 +226,7 @@ en https://www.taniarascia.com/easiest-flex-grid-ever/
 }
 
 .integrante:nth-of-type(1):hover{
-    background-color:#90caf9;
+    background-color:#74c0ea;
     background-image:url('media/Foto Vicente.jpeg');
     background-position: bottom right;
     background-size:auto 100%;
@@ -253,7 +254,7 @@ AHORA VAMOS POR PORTAFOLIO
     width:23%;
     margin:1%;
     color:#000;
-    background:#90caf9;
+    background:#74c0ea;
     box-shadow:0 0 5px rgba(0,0,0,.5);
 }
 
@@ -281,7 +282,7 @@ AHORA VAMOS POR PORTAFOLIO
     .item:nth-of-type(odd){
         width:48%;
         margin:1%;
-        background:#90caf9;
+        background:#74c0ea;
         color:#000;
     }
 
@@ -304,7 +305,7 @@ AHORA VAMOS POR PORTAFOLIO
      .item:nth-of-type(odd){
         width:96%;
         margin:2%;
-        background:#90caf9;
+        background:#74c0ea;
         color:#000;
     }
 
