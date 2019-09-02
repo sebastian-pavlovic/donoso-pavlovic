@@ -4,54 +4,15 @@
 
 #### MÓDULO WEB
 
-Basta con un poco de memoria frente a las pantallas conectadas a Internet para reconocer la acelerada evolución de la web, la que implica una evolución, tanto o más radical, en sus procesos de producción. Esta radical evolución ha hecho que los *webmasters* estén casi extintos, y en lo que era su hábitat ahora encontremos: 
+### Integrantes:
+**Vicente Donoso y Sebastián Pavlovic**
 
-- Community Managers; 
+Con este portafolio nosotros buscamos mostrar 3 trabajos individuales de cada uno y 1 en que participamos ambos, esto con el objeto de resaltar la característica del estudio que creamos para el encargo, el estudio SPVD, el cual lo conformaríamos nosotros dos, como estudiantes egresados que trabajan en conjunto, aportando las fortalezas individuales de cada uno.
 
-- Diseñadores UI (Visual Designers, Motion Designers, Interaction Designers);
+### Metodologiía
+Para realizar este trabajo nos dividimos las tareas en las distintas secciones de código, en un principio nos repartimos el **Html** (Vicente Donoso) y el **JavaScript** (Sebastián Pavlovic). Luego de finalizar esta fase pasamos a la edición del **CSS**, el cual era el que más cambios requería. Para esta sección nos fuimos dividiendo las tareas y coordinando los pulls en el github mediante whatsapp, para que no borrásemos los progresos del otro por error. Las divisiones fueron categorizadas en 3 ámbitos: por **distribución de contenido, estética de la página y navegación.**
 
-- Diseñadores UX (UX Researchers, UX Writers);
+**La navegación** de la página la hizo mayoritariamente Vicente Donoso, el cual se encargó de agregar la barra de navegación por anclas. **La distribución de contenido** fue vista por Sebastián Pavlovic, esto inluye la dispocisión de los títulos, los reajustes de tamaños y el adaptar el código para diferenciar distintos elementos, a modo de poder editar la parte estética de manera específica en cada uno de ellos, y por último el **área estética** fue desarrollada en conjunto por ambos miembros.
 
-- Desarrolladores FrontEnd, BackEnd o Fullstack (UX Engineers).
-
-Esta diversidad de profesionales especializados, y el tiempo de un módulo, nos exige escoger solo una caja de herramientas, métodos, lenguajes y tecnologías para los procesos de producción web. La caja escogida es la que usan los desarrolladores FrontEnd.  
-
-Para poner a prueba el aprovechamiento del módulo, que es parte de un curso donde corresponde adquirir competencias para realizar proyectos con los medios disponibles en cada momento, tendrán que preparar, como equipo, una página portafolio de diseño usando los lenguajes del desarrollo FrontEnd.
-
-La entrega consiste en la edición de la plantilla contenida en este repositorio; favor limítense a sacar el mejor provecho de esta plantilla. **Consideren que la evaluación depende de [una rúbrica que detalla las modificaciones esperadas](https://docs.google.com/spreadsheets/d/1M3ofrTqd8at256lX49kDg6wRTooTTiupnqlP3sFJyLc/edit?usp=sharing)**. En caso que su entrega no se ajuste a la rúbrica, podrían obtener una calificación muy carcana a la mínima.
-
-Este trabajo se desarrolla en tríos. No se aceptan entregas de solitarias/os, ni cuartetos. Sí podríamos hacer excepciones para trabajos de duplas.
-
-**Para la entrega deben crear, como trío (o dupla), un único repositorio en GitHub**; para facilitarnos el registro de sus entregas, favor consideren que:
-
-- si el trío estuviera integrado por Patricia de los Ríos Escobar, María Infante Izquierdo y Francisca López de Heredia Loyola, el repositorio debería llamarse **de_los_rios-infante-lopez_de_heredia**
-
-**Noten que se usan solo minusculas, se eliminan los tildes (y todo caracter extraño al inglés), y los espacios en los apellidos compuestos se reemplazan por guión bajo mientras que los espacios entre apellidos de integrantes se separan con guión simple.**
-
-Los contenidos en el repositorio deben estar [todos en una rama (*branch*) de nombre **gh-pages**](https://youtu.be/bFVtrlyH-kc), de tal manera, podrán contar con 2 URL:
-
-- una de repositorio en GitHub, que se estructura así: https://github.com/usuario/repositorio
-
-- una de GitHub Page, que se se estructura así: https://usuario.github.io/repositorio
-
-**Envíen sus propias URLs a profesor@faco.cl, con copia a las ayudantes (fslopezdeheredia@uc.cl, meinfante@uc.cl). El asunto de este correo debe ser: "Procesos de Producción / Entrega Nº1". Para el envío de este correo, consideren que**: 
-
-- suman 0,5 a su nota si entregan hasta las 23:59 hrs. del domingo 25 de agosto;
-
-- su nota no suma ni pierde si entregan entre las 00:00 hrs. del lunes 26 de abril y las 23:59 hrs. del domingo 1 de septiembre.
-
-- pierden 0,5 si entregan entre las 00:00 hrs. del lunes 1 de septiembre y las 23:59 hrs. del domingo 8 de septiembre.
-
-Entregando después de las 00:00 hrs. del lunes 9 de septiembre se obtiene nota mínima (1.0)
-
-Pero antes de hacer entrega de tu trabajo, favor:
-
-- validen tu HTML con https://validator.w3.org/ 
-
-- validen tu CSS con https://jigsaw.w3.org/css-validator/validator.html.es
-
-- revisen por última vez [la rúbrica de evaluación](https://docs.google.com/spreadsheets/d/1M3ofrTqd8at256lX49kDg6wRTooTTiupnqlP3sFJyLc/edit?usp=sharing)
-
-En caso detectemos algún problema en una entrega, les avisaremos y el trío (o dupla) podrá hacer la modificación correspondiente para luego enviar un segundo correo. Su nota dependerá de fecha y hora en que recibamos este segundo correo.
-
-Y las 2 semanas de plazo que tenemos para entregarles su evaluación cuentan desde el último trabajo entregado, o desde el 9 de septiembre si es que quedasen entregas pendientes.
+### El camino
+Si bien tuvimos algunas complicaciones en la producción de este portafolio, algunas mas grandes que otras, quedamos satisfechos con el conocimiento que adquirimos y el producto al que pudimos llegar. Si bien es probable que pueda mejorarse, debido a que todo puede ser mejorado, nos ha servido para introducirnos a las posibilidades de la programación y la construcción de sitios web, por lo que esperamos volver a utilizar estas herramientas y poder desarrollar más este conocimiento a futuro.
